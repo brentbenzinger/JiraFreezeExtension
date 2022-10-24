@@ -1,0 +1,22 @@
+{
+  "manifest_version": 3,
+  "name": "Jira Freeze",
+  "description": "Freeze the description section of a Jira ticket to prevent the editor from opening when you really just wanted to copy some text.",
+  "version": "1.0",
+  "content_scripts": [
+    {
+      "matches": [
+        "https://*.atlassian.net/browse/*"
+      ],
+      "js": [
+        "content.js"
+      ]
+    }
+  ],
+  "icons": {
+    "16": "images/freeze_48.png",
+    "48": "images/freeze_48.png",
+    "128": "images/freeze_128.png"
+  }
+}
+
