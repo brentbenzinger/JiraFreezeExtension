@@ -7,9 +7,16 @@ Jira Freeze Extension for chromium browsers works on Jira tickets by freezing th
 - Load time feels much faster because the page is usable sooner
 - Original description view loads in the background and is still accessible if you want to edit
 
+### SmartLinks are disabled
 
-![!image gif of editor disabled](images/disable_click_editor.gif)
+![!image smart links disabled](images/smartlinks_disabled.png)
 
-![image gif of smartlinks having been removed](images/remove_smartlinks.gif)
+### Restore native browser functionality without triggering the description editor
 
-![image gif of unfreezing content](images/unfreeze.gif)
+![image gif of double click that doesn't open the editor](images/double_click.gif)
+
+![image gif of triple click that doesn't open the editor](images/triple_click.gif)
+
+### Unfreeze the page to edit it again
+
+![image gif of restoring original Jira page](images/unfreeze.gif)
