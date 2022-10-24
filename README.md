@@ -6,3 +6,10 @@ Jira Freeze Extension for chromium browsers works on Jira tickets by freezing th
 - Restore double click to highlight word-wise and triple click to highlight paragraph-wise
 - Load time feels much faster because the page is usable sooner
 - Original description view loads in the background and is still accessible if you want to edit
+
+
+![!image gif of editor disabled](images/disable_click_editor.gif)
+
+![image gif of smartlinks having been removed](images/remove_smartlinks.gif)
+
+![image gif of unfreezing content](images/unfreeze.gif)
